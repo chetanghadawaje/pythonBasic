@@ -1,0 +1,15 @@
+Def function_name(arg1, arg2=1.0,):
+    BODY
+
+Arg1 => Positional Argument
+Arg2 => Keyword Argument
+
+----------------------------------------------------------------
+
+Def func( *args, **kwargv):
+    BODY
+
+*args => tuple
+**kwargs => dict
+
+Note:- these arguments should be pass in sequence.
