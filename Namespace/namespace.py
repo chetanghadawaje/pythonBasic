@@ -26,6 +26,8 @@ a = 10
 This namespace includes local names inside a function. This namespace is created when a function is called, and it only
 lasts until the function returns.
 """
+
+
 def local_name():
     a = 20
     print(f"A = {a}")
