@@ -1,5 +1,5 @@
 """
-python does not supports method overloading. We may overload the methods but can only use the latest defined method.
+python does not support method overloading. We may overload the methods but can only use the latest defined method.
 """
 
 
@@ -11,3 +11,11 @@ add()
 add(1)
 add(1, 2)
 add(1, 2, 3)
+
+"""
+Output:
+0
+1
+3
+6
+"""

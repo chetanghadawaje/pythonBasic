@@ -1,4 +1,4 @@
-class tempClass:
+class TempClass(object):
     def __init__(self, text):
         self.text = text
         print("-------[__init__]-------")
@@ -12,13 +12,13 @@ class tempClass:
         print("-------[__exit__]-------")
 
 
-tempObj = tempClass("abc")
+tempObj = TempClass("abc")
 """
 Output:- 
 -------[__init__]-------
 """
 
-with tempClass("xyz") as _:
+with TempClass("xyz") as _:
     print(str(_))
     print("Done")
 """

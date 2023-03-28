@@ -1,4 +1,4 @@
-class Animal():
+class Animal(object):
     def voice(self):
         print("This is animal voice")
 

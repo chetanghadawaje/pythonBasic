@@ -5,7 +5,7 @@ __ = Private members [which cannot be accessed outside the class but can be acce
 """
 
 
-class Person():
+class Person(object):
     def __init__(self, name=None, age=None):
         self._name = name
         self.__age = age

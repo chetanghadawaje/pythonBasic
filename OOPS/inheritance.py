@@ -1,4 +1,4 @@
-class ClassOne():
+class ClassOne(object):
     def __init__(self, temp1):
         self.temp1 = temp1
 
@@ -21,6 +21,6 @@ class ClassTwo(ClassOne):
         print(self.temp2)
 
 
-obj = ClassTwo(10,20)
+obj = ClassTwo(10, 20)
 obj.FunctionOne()
 obj.view()
