@@ -1,0 +1,101 @@
+1) What are decorators in Python, and how are they used?
+Ans: functions/decorators
+
+2) What is the difference between generators and iterators in Python?
+Ans: functions/generators.py
+
+3) What is a closure, and how is it used in Python?
+
+What is metaclass in Python, and how is it used?
+
+What is the difference between @staticmethod and @classmethod in Python?
+
+What is the difference between getattr and getattribute in Python?
+
+How does the GIL affect Python's multithreading capabilities?
+
+What are some ways to speed up Python code?
+
+What is monkey patching, and how is it used in Python?
+
+What is the difference between Python 2 and Python 3, and how do you handle compatibility issues?
+
+What are some common data structures in Python, and how do you implement them?
+
+What is the difference between shallow and deep copying in Python?
+
+What are some ways to handle exceptions in Python, and when should you use them?
+
+How do you handle concurrency in Python, and what are some common pitfalls to avoid?
+
+What are some best practices for writing Python code, and how can you ensure code quality and maintainability?
+
+What is the difference between a list and a tuple in Python, and when would you use each?
+
+What is the difference between a dictionary and a set in Python, and when would you use each?
+
+What is the difference between a function and a method in Python?
+
+What is the difference between a module and a package in Python?
+
+What is the use of the "yield" keyword in Python, and how is it used in generators?
+
+What is the purpose of lambda functions in Python, and how are they used?
+
+What are decorators in Python, and how are they used to modify function behavior?
+
+What is the difference between "is" and "==" operators in Python?
+
+How can you debug a Python program, and what are some common debugging techniques?
+
+What is the difference between "map" and "filter" functions in Python, and how are they used?
+
+What are list comprehensions in Python, and how are they used to create lists?
+
+What is a generator comprehension in Python, and how is it used to create generators?
+
+What is a context manager in Python, and how is it used to manage resources?
+
+What is the purpose of the "with" statement in Python, and how is it used?
+
+What is the difference between "shallow" and "deep" copying in Python, and when would you use each?
+
+What is the purpose of the "async" and "await" keywords in Python, and how are they used for asynchronous programming?
+
+What are coroutines in Python, and how are they used in asynchronous programming?
+
+What is the difference between synchronous and asynchronous programming, and when would you use each?
+
+What is the difference between a thread and a process in Python, and how do you create them?
+
+What are some ways to optimize performance in Python, and what tools can you use to measure performance?
+
+What is the purpose of the "init" method in Python classes, and how is it used to initialize objects?
+
+What is a namespace in Python, and how is it used to organize code?
+
+What is the difference between an instance variable and a class variable in Python, and how are they used?
+
+What is a metaclass in Python, and how is it used to customize class behavior?
+
+What are some common design patterns in Python, and how are they used to solve common programming problems?
+
+What is the difference between a generator function and a coroutine in Python, and how are they used in asynchronous programming?
+
+What is the purpose of the "super()" function in Python, and how is it used to call superclass methods?
+
+What is the difference between "new-style" and "old-style" classes in Python, and when would you use each?
+
+What is a metaclass in Python, and how is it used to customize class creation?
+
+What are some common performance optimization techniques in Python, and how can you measure the impact of these optimizations?
+
+What is the difference between "pickle" and "cPickle" modules in Python, and how are they used for serialization?
+
+What are some common security concerns in Python programming, and how can you mitigate these concerns?
+
+What is the difference between a "thread-safe" and "non-thread-safe" Python module, and how can you ensure thread safety in your code?
+
+What are some common design patterns for concurrency in Python, and how are they used to manage shared resources?
+
+What is the difference between "yield from" and "yield" in Python, and how are they used in coroutine delegation?

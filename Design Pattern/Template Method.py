@@ -36,3 +36,9 @@ class Cricket(Game):
 
 game = Cricket()
 game.run()
+
+"""
+O/P:
+Cricket game start
+Chetan Wins!
+"""
