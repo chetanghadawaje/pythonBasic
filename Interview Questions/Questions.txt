@@ -5,8 +5,9 @@ Ans: functions/decorators
 Ans: functions/generators.py
 
 3) What is a closure, and how is it used in Python?
+ANS: Interview Questions/closure.py
 
-What is metaclass in Python, and how is it used?
+4) What is metaclass in Python, and how is it used?
 
 What is the difference between @staticmethod and @classmethod in Python?
 
@@ -99,3 +100,5 @@ What is the difference between a "thread-safe" and "non-thread-safe" Python modu
 What are some common design patterns for concurrency in Python, and how are they used to manage shared resources?
 
 What is the difference between "yield from" and "yield" in Python, and how are they used in coroutine delegation?
+
+MRO?
