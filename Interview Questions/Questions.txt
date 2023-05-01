@@ -46,6 +46,7 @@ What is the purpose of lambda functions in Python, and how are they used?
 What are decorators in Python, and how are they used to modify function behavior?
 
 What is the difference between "is" and "==" operators in Python?
+ANS: Interview Questions/is VS ==.py
 
 How can you debug a Python program, and what are some common debugging techniques?
 
@@ -58,6 +59,9 @@ What is a generator comprehension in Python, and how is it used to create genera
 What is a context manager in Python, and how is it used to manage resources?
 
 What is the purpose of the "with" statement in Python, and how is it used?
+ANS: The with statement in Python is used for resource management and exception handling. You’d most likely find it when working with file
+streams. For example, the statement ensures that the file stream process doesn’t block other processes if an exception is raised, but
+terminates properly.
 
 What is the difference between "shallow" and "deep" copying in Python, and when would you use each?
 
@@ -66,6 +70,11 @@ What is the purpose of the "async" and "await" keywords in Python, and how are t
 What are coroutines in Python, and how are they used in asynchronous programming?
 
 What is the difference between synchronous and asynchronous programming, and when would you use each?
+AND: (A)Asynchronous programming is a multithreaded model that’s most applicable to networking and communications. Asynchronous is a
+non-blocking architecture, which means it doesn’t block further execution while one or more operations are in progress.
+(S)Synchronous is known as a blocking architecture and is ideal for programming reactive systems. As a single-thread model, it follows a
+strict set of sequences, which means that operations are performed one at a time, in perfect order. While one operation is being performed,
+other operations’ instructions are blocked. The completion of the first task triggers the next, and so on.
 
 What is the difference between a thread and a process in Python, and how do you create them?
 
@@ -77,8 +86,6 @@ What is a namespace in Python, and how is it used to organize code?
 
 What is the difference between an instance variable and a class variable in Python, and how are they used?
 
-What is a metaclass in Python, and how is it used to customize class behavior?
-
 What are some common design patterns in Python, and how are they used to solve common programming problems?
 
 What is the difference between a generator function and a coroutine in Python, and how are they used in asynchronous programming?
@@ -87,8 +94,6 @@ What is the purpose of the "super()" function in Python, and how is it used to c
 
 What is the difference between "new-style" and "old-style" classes in Python, and when would you use each?
 
-What is a metaclass in Python, and how is it used to customize class creation?
-
 What are some common performance optimization techniques in Python, and how can you measure the impact of these optimizations?
 
 What is the difference between "pickle" and "cPickle" modules in Python, and how are they used for serialization?
@@ -96,6 +101,15 @@ What is the difference between "pickle" and "cPickle" modules in Python, and how
 What are some common security concerns in Python programming, and how can you mitigate these concerns?
 
 What is the difference between a "thread-safe" and "non-thread-safe" Python module, and how can you ensure thread safety in your code?
+ANS: You need to implement your own locking for all shared variables that will be modified in Python. You don't have to worry about reading
+from the variables that won't be modified (ie, concurrent reads are ok), so immutable types (frozenset, tuple, str) are probably safe,
+but it wouldn't hurt. For things you're going to be changing - list, set, dict, and most other objects, you should have your own locking
+mechanism (while in-place operations are ok on most of these, threads can lead to super-nasty bugs - you might as well implement locking,
+it's pretty easy).
+By the way, I don't know if you know this, but locking is very easy in Python - create a threading. lock object, and then you can
+acquire/release it like this:
+import threading
+list1Lock = threading.Lock()
 
 What are some common design patterns for concurrency in Python, and how are they used to manage shared resources?
 
