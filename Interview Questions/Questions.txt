@@ -8,6 +8,8 @@ Ans: functions/generators.py
 ANS: Interview Questions/closure.py
 
 4) What is metaclass in Python, and how is it used?
+ANS:
+Design Pattern/Singleton/Singleton Using Metaclass.py
 
 What is the difference between @staticmethod and @classmethod in Python?
 
@@ -91,6 +93,8 @@ What are some common design patterns in Python, and how are they used to solve c
 What is the difference between a generator function and a coroutine in Python, and how are they used in asynchronous programming?
 
 What is the purpose of the "super()" function in Python, and how is it used to call superclass methods?
+ANS: The super() builtin returns a proxy object (temporary object of the superclass) that allows us to access methods of the base class.
+Interview Questions/class/Calling parent class __init__ with multiple inheritance.py
 
 What is the difference between "new-style" and "old-style" classes in Python, and when would you use each?
 
