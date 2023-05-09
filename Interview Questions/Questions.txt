@@ -55,56 +55,56 @@ ANS: Interview Questions/Monkey Patching
 
 21) What is the use of the "yield" keyword in Python, and how is it used in generators?
 
-What is the purpose of lambda functions in Python, and how are they used?
+22) What is the purpose of lambda functions in Python, and how are they used?
 
-What are decorators in Python, and how are they used to modify function behavior?
+23) What are decorators in Python, and how are they used to modify function behavior?
 
-What is the difference between "is" and "==" operators in Python?
+24) What is the difference between "is" and "==" operators in Python?
 ANS: Interview Questions/is VS ==.py
 
-How can you debug a Python program, and what are some common debugging techniques?
+25) How can you debug a Python program, and what are some common debugging techniques?
 
-What is the difference between "map" and "filter" functions in Python, and how are they used?
+26) What is the difference between "map" and "filter" functions in Python, and how are they used?
 
-What are list comprehensions in Python, and how are they used to create lists?
+27) What are list comprehensions in Python, and how are they used to create lists?
 
-What is a generator comprehension in Python, and how is it used to create generators?
+28) What is a generator comprehension in Python, and how is it used to create generators?
 
-What is a context manager in Python, and how is it used to manage resources?
+29) What is a context manager in Python, and how is it used to manage resources?
 
-What is the purpose of the "with" statement in Python, and how is it used?
+30) What is the purpose of the "with" statement in Python, and how is it used?
 ANS: The with statement in Python is used for resource management and exception handling. You’d most likely find it when working with file
 streams. For example, the statement ensures that the file stream process doesn’t block other processes if an exception is raised, but
 terminates properly.
 
-What is the difference between "shallow" and "deep" copying in Python, and when would you use each?
+31) What is the difference between "shallow" and "deep" copying in Python, and when would you use each?
 
-What is the purpose of the "async" and "await" keywords in Python, and how are they used for asynchronous programming?
+32) What is the purpose of the "async" and "await" keywords in Python, and how are they used for asynchronous programming?
 
-What are coroutines in Python, and how are they used in asynchronous programming?
+33) What are coroutines in Python, and how are they used in asynchronous programming?
 
-What is the difference between synchronous and asynchronous programming, and when would you use each?
+34) What is the difference between synchronous and asynchronous programming, and when would you use each?
 AND: (A)Asynchronous programming is a multithreaded model that’s most applicable to networking and communications. Asynchronous is a
 non-blocking architecture, which means it doesn’t block further execution while one or more operations are in progress.
 (S)Synchronous is known as a blocking architecture and is ideal for programming reactive systems. As a single-thread model, it follows a
 strict set of sequences, which means that operations are performed one at a time, in perfect order. While one operation is being performed,
 other operations’ instructions are blocked. The completion of the first task triggers the next, and so on.
 
-What is the difference between a thread and a process in Python, and how do you create them?
+35) What is the difference between a thread and a process in Python, and how do you create them?
 
-What are some ways to optimize performance in Python, and what tools can you use to measure performance?
+36) What are some ways to optimize performance in Python, and what tools can you use to measure performance?
 
-What is the purpose of the "init" method in Python classes, and how is it used to initialize objects?
+37) What is the purpose of the "init" method in Python classes, and how is it used to initialize objects?
 
-What is a namespace in Python, and how is it used to organize code?
+38) What is a namespace in Python, and how is it used to organize code?
 
-What is the difference between an instance variable and a class variable in Python, and how are they used?
+39) What is the difference between an instance variable and a class variable in Python, and how are they used?
 
-What are some common design patterns in Python, and how are they used to solve common programming problems?
+40) What are some common design patterns in Python, and how are they used to solve common programming problems?
 
-What is the difference between a generator function and a coroutine in Python, and how are they used in asynchronous programming?
+41) What is the difference between a generator function and a coroutine in Python, and how are they used in asynchronous programming?
 
-What is the purpose of the "super()" function in Python, and how is it used to call superclass methods?
+42) What is the purpose of the "super()" function in Python, and how is it used to call superclass methods?
 ANS: The super() builtin returns a proxy object (temporary object of the superclass) that allows us to access methods of the base class.
 Interview Questions/class/Calling parent class __init__ with multiple inheritance.py
 
