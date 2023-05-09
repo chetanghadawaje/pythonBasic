@@ -9,39 +9,51 @@ ANS: Interview Questions/closure.py
 
 4) What is metaclass in Python, and how is it used?
 ANS:
-Design Pattern/Singleton/Singleton Using Metaclass.py
 
-What is the difference between @staticmethod and @classmethod in Python?
+5) Design Pattern/Singleton/Singleton Using Metaclass.py
+ANS: Design Pattern/Singleton
 
-What is the difference between getattr and getattribute in Python?
+6) What is the difference between @staticmethod and @classmethod in Python?
+ANS: normal method: the current object is automatically passed as an (additional) first argument.
+def f(self, x, y)
+classmethod: the class of the current object is automatically passed as an (additional) fist argument
+@classmethod
+def f(cls, x, y)
+staticmethod: no extra arguments are automatically passed. What you passed to the function is what you get.
+@staticmethod
+def f(x, y)
 
-How does the GIL affect Python's multithreading capabilities?
+7) What is the difference between getattr and getattribute in Python?
+ANS: Interview Questions/class/getattr vs getattribute.py
 
-What are some ways to speed up Python code?
+8) How does the GIL affect Python's multithreading capabilities?
 
-What is monkey patching, and how is it used in Python?
+9) What are some ways to speed up Python code?
 
-What is the difference between Python 2 and Python 3, and how do you handle compatibility issues?
+10) What is monkey patching, and how is it used in Python?
+ANS: Interview Questions/Monkey Patching
 
-What are some common data structures in Python, and how do you implement them?
+11) What is the difference between Python 2 and Python 3, and how do you handle compatibility issues?
 
-What is the difference between shallow and deep copying in Python?
+12) What are some common data structures in Python, and how do you implement them?
 
-What are some ways to handle exceptions in Python, and when should you use them?
+13 What is the difference between shallow and deep copying in Python?
 
-How do you handle concurrency in Python, and what are some common pitfalls to avoid?
+14) What are some ways to handle exceptions in Python, and when should you use them?
 
-What are some best practices for writing Python code, and how can you ensure code quality and maintainability?
+15) How do you handle concurrency in Python, and what are some common pitfalls to avoid?
 
-What is the difference between a list and a tuple in Python, and when would you use each?
+16) What are some best practices for writing Python code, and how can you ensure code quality and maintainability?
 
-What is the difference between a dictionary and a set in Python, and when would you use each?
+17) What is the difference between a list and a tuple in Python, and when would you use each?
 
-What is the difference between a function and a method in Python?
+18) What is the difference between a dictionary and a set in Python, and when would you use each?
 
-What is the difference between a module and a package in Python?
+19) What is the difference between a function and a method in Python?
 
-What is the use of the "yield" keyword in Python, and how is it used in generators?
+20) What is the difference between a module and a package in Python?
+
+21) What is the use of the "yield" keyword in Python, and how is it used in generators?
 
 What is the purpose of lambda functions in Python, and how are they used?
 
@@ -116,6 +128,7 @@ import threading
 list1Lock = threading.Lock()
 
 What are some common design patterns for concurrency in Python, and how are they used to manage shared resources?
+ANS: Design Pattern/
 
 What is the difference between "yield from" and "yield" in Python, and how are they used in coroutine delegation?
 
