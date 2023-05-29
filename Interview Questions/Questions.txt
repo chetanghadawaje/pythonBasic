@@ -8,7 +8,7 @@ Ans: functions/generators.py
 ANS: Interview Questions/closure.py
 
 4) What is metaclass in Python, and how is it used?
-ANS:
+ANS: Interview Questions/class/metaclass.py
 
 5) Design Pattern/Singleton/Singleton Using Metaclass.py
 ANS: Design Pattern/Singleton
@@ -29,6 +29,14 @@ ANS: Interview Questions/class/getattr vs getattribute.py
 8) How does the GIL affect Python's multithreading capabilities?
 
 9) What are some ways to speed up Python code?
+ANS: Use proper data structure. Use of proper data structure has a significant effect on runtime. ...
+Decrease the use of for loop. ...
+Use list comprehension. ...
+Use multiple assignments. ...
+Do not use global variables. ...
+Use library function. ...
+Concatenate strings with join. ...
+Use generators.
 
 10) What is monkey patching, and how is it used in Python?
 ANS: Interview Questions/Monkey Patching
@@ -36,10 +44,24 @@ ANS: Interview Questions/Monkey Patching
 11) What is the difference between Python 2 and Python 3, and how do you handle compatibility issues?
 
 12) What are some common data structures in Python, and how do you implement them?
+ANS: List: Array-like structures that let you save a set of mutable objects of the same type to a variable.
+Tuple: Tuples are immutable lists, meaning the elements cannot be changed. It’s declared with parenthesis instead of square brackets.
+Set: Sets are unordered collections, meaning that elements are un-indexed and have no set sequence. They’re declared with curly braces.
+Dictionary (dict): Similar to hashmap or hash tables in other languages, a dictionary is a collection of key/value pairs. You initialize an
+empty dictionary with empty curly braces and fill it with colon separated keys and values. All keys are unique, immutable objects.
 
 13 What is the difference between shallow and deep copying in Python?
+ANS: Interview Questions/shallow vs deep copying.py
 
 14) What are some ways to handle exceptions in Python, and when should you use them?
+ANS: try:
+   Business Logic here...
+except "Invalid level!":
+   Exception handling here...
+else:
+   Rest of the code here...
+finally:
+   This would always be executed
 
 15) How do you handle concurrency in Python, and what are some common pitfalls to avoid?
 
@@ -56,28 +78,51 @@ ANS: Interview Questions/Monkey Patching
 21) What is the use of the "yield" keyword in Python, and how is it used in generators?
 
 22) What is the purpose of lambda functions in Python, and how are they used?
+ANS: lambda argument(s) : expression
+lambda is a keyword in Python for defining the anonymous function.
+argument(s) is a placeholder, that is a variable that will be used to hold the value you want to pass into the function expression.
+A lambda function can have multiple variables depending on what you want to achieve.
+expression is the code you want to execute in the lambda function.
 
 23) What are decorators in Python, and how are they used to modify function behavior?
+ANS: functions/decorators
 
 24) What is the difference between "is" and "==" operators in Python?
 ANS: Interview Questions/is VS ==.py
 
 25) How can you debug a Python program, and what are some common debugging techniques?
+ANS: Some common debugging techniques include:
+A] Printing out or displaying values of variables and state at certain times during the execution of an application
+B] Changing the state of a program to make it do different things. This is called altering the "path" of the program
+C] Stepping through the execution of a program line by line
+D] Breakpoints
+E] Trace Points
+F] Stopping the program at certain events
+G] Viewing the output of a program in a debugger window
 
 26) What is the difference between "map" and "filter" functions in Python, and how are they used?
 
 27) What are list comprehensions in Python, and how are they used to create lists?
+ANS: [i for i in range(10)] O/P: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[i for i in range(10) if i %2 == 0 ] O/P: [0, 2, 4, 6, 8]
+[i if i%2 ==0 else 0 for i in range(10)] O/P: [0, 0, 2, 0, 4, 0, 6, 0, 8, 0]
 
 28) What is a generator comprehension in Python, and how is it used to create generators?
 
 29) What is a context manager in Python, and how is it used to manage resources?
+ANS: functions/context_manager.py
 
 30) What is the purpose of the "with" statement in Python, and how is it used?
 ANS: The with statement in Python is used for resource management and exception handling. You’d most likely find it when working with file
 streams. For example, the statement ensures that the file stream process doesn’t block other processes if an exception is raised, but
 terminates properly.
 
-31) What is the difference between "shallow" and "deep" copying in Python, and when would you use each?
+31) What is the difference between "pickle" and "cPickle" modules in Python, and how are they used for serialization?
+ANS: [1]Pickle uses python class-based implementation while cPickle is written as C functions. As a result, cPickle is many times faster than
+pickle.
+[2]Pickle is available in both python 2.x and python 3.x while cPickle is available in python 2.x by default. To use cPickle in python 3.x,
+we can import _pickle.
+[3]cPickle does not support subclass from pickle. cPickle is better if subclassing is not important otherwise Pickle is the best option.
 
 32) What is the purpose of the "async" and "await" keywords in Python, and how are they used for asynchronous programming?
 
@@ -95,6 +140,7 @@ other operations’ instructions are blocked. The completion of the first task t
 36) What are some ways to optimize performance in Python, and what tools can you use to measure performance?
 
 37) What is the purpose of the "init" method in Python classes, and how is it used to initialize objects?
+ANS: Interview Questions/class/Calling parent class __init__ with multiple inheritance.py
 
 38) What is a namespace in Python, and how is it used to organize code?
 
@@ -108,11 +154,9 @@ other operations’ instructions are blocked. The completion of the first task t
 ANS: The super() builtin returns a proxy object (temporary object of the superclass) that allows us to access methods of the base class.
 Interview Questions/class/Calling parent class __init__ with multiple inheritance.py
 
-What is the difference between "new-style" and "old-style" classes in Python, and when would you use each?
+43) What is the difference between "new-style" and "old-style" classes in Python, and when would you use each?
 
 What are some common performance optimization techniques in Python, and how can you measure the impact of these optimizations?
-
-What is the difference between "pickle" and "cPickle" modules in Python, and how are they used for serialization?
 
 What are some common security concerns in Python programming, and how can you mitigate these concerns?
 
@@ -132,4 +176,4 @@ ANS: Design Pattern/
 
 What is the difference between "yield from" and "yield" in Python, and how are they used in coroutine delegation?
 
-MRO?
+MRO (Method Resolution Order)?
