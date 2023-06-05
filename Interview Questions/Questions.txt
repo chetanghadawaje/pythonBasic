@@ -42,6 +42,10 @@ Use generators.
 ANS: Interview Questions/Monkey Patching
 
 11) What is the difference between Python 2 and Python 3, and how do you handle compatibility issues?
+ANS: Ease of Syntax: Python 2 has more complicated syntax than Python 3.Python 3 has an easier syntax compared to Python 2.
+Libraries: A lot of libraries of Python 2 are not forward compatible. A lot of libraries are created in Python 3 to be strictly used with
+Python 3.
+Usage in today’s times: Python 2 is no longer in use since 2020.Python 3 is more popular than Python 2 and is still in use in today’s times.
 
 12) What are some common data structures in Python, and how do you implement them?
 ANS: List: Array-like structures that let you save a set of mutable objects of the same type to a variable.
@@ -72,10 +76,19 @@ finally:
 18) What is the difference between a dictionary and a set in Python, and when would you use each?
 
 19) What is the difference between a function and a method in Python?
+ANS: Simply, function and method both look similar as they perform in almost similar way, but the key difference is the concept of ‘Class
+and its Object‘.
+Functions can be called only by its name, as it is defined independently. But methods can’t be called by its name only, we need to invoke
+the class by a reference of that class in which it is defined, i.e. method is defined within a class and hence they are dependent on that
+class.
 
 20) What is the difference between a module and a package in Python?
+ANS: A Python Module can be a simple python File (. py extension file), i.e., a combination of numerous Functions and Global variables.
+A Python Package is a collection of different Python modules with an __init__.py File.
 
 21) What is the use of the "yield" keyword in Python, and how is it used in generators?
+ANS: Context Manage/contextManageUsingFunction.py
+yield keyword is used to create a generator function. A type of function that is memory efficient and can be used like an iterator object.
 
 22) What is the purpose of lambda functions in Python, and how are they used?
 ANS: lambda argument(s) : expression
@@ -101,6 +114,7 @@ F] Stopping the program at certain events
 G] Viewing the output of a program in a debugger window
 
 26) What is the difference between "map" and "filter" functions in Python, and how are they used?
+ANS: functions/map.py
 
 27) What are list comprehensions in Python, and how are they used to create lists?
 ANS: [i for i in range(10)] O/P: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
