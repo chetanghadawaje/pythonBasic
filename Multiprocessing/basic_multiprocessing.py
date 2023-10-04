@@ -25,3 +25,12 @@ if __name__ == '__main__':
     # complete the processes
     for proc in procs:
         proc.join()
+
+
+"""
+Output:
+This function print default_value
+This function print chetan
+This function print vinay
+This function print parth
+"""
