@@ -31,3 +31,13 @@ lasts until the function returns.
 def local_name():
     a = 20
     print(f"A = {a}")
+
+
+local_name()
+print(f"A = {a}")
+
+"""
+output:
+A = 20
+A = 10
+"""

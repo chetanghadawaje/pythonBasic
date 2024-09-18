@@ -34,3 +34,14 @@ def PowTwoGen(max=0):
 
 
 print(list(PowTwoGen(10)))
+
+# Ex3
+def my_function():
+    for i in range(5):
+        yield i
+
+
+my_fuction_obj = my_function()
+print(next(my_fuction_obj))
+print(next(my_fuction_obj))
+print(next(my_fuction_obj))
